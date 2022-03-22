@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd18051d80f85599a29dc63f086a7fb, type: 3}
+  m_Name: VanillaIslandGenerator
+  m_EditorClassIdentifier: 
+  heightMapGenerator: {fileID: 11400000, guid: 9e0cefee2cec7e45e87ea37c956c0dea, type: 2}
+  mapInfo: {fileID: 11400000, guid: 68e86b289cfe00e948eae84f6fff9d49, type: 2}
+  sandTiles: {fileID: 11400000, guid: 7de574db2bbb8271583df6fa186028a4, type: 2}
+  stoneTiles: {fileID: 11400000, guid: 40e5cf1492a9bb60db0a04e85f2b109c, type: 2}
+  waterTile: {fileID: 11400000, guid: 6d53b1e1f5404b4109cc66e5c3f0ad84, type: 2}
+  seed: 6920
