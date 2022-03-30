@@ -12,12 +12,14 @@ namespace CastleCrabers.World {
         [SerializeField]
         private IslandGenerator islandGenerator;
         [SerializeField]
+        private GeneratedMapData generatedMapData;
+        [SerializeField]
         private Tilemap terrainTilemap;
         [SerializeField]
         private Tilemap waterTilemap;
 
         public void Start() {
-            islandGenerator.Generate(terrainTilemap, waterTilemap);
+            generatedMapData.tiles = islandGenerator.Generate(terrainTilemap, waterTilemap);
         }
 
     }
